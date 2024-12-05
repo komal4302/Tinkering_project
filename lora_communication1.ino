@@ -66,7 +66,7 @@ void onReceive(int packetSize) {
   }
  
   if (incomingLength != incoming.length()) {   // check length for error
-   // Serial.println("error: message length does not match length");
+    Serial.println("error: message length does not match length");
    ;
     return;                             // skip rest of function
   }
