@@ -34,7 +34,6 @@ void loop() {
     Mymessage = "";
    }
  
- 
       // parse for a packet, and call onReceive with the result:
   onReceive(LoRa.parsePacket());
 }
@@ -92,8 +91,7 @@ void onReceive(int packetSize) {
     //Serial.println(q);
 if(calling== 45)
 {
- calling = 0;  
-    
+ calling = 0;    
   }
  
  else 
